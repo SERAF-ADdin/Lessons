@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    Задание 4
+    <script>
+        let Login = prompt(`Введите Логин (подсказка "Админ")`, '');
+        let Pass = prompt(`Введите пароль (подсказка "Я главный")`, '');
+        alert(` Вы ввели ${Login} ${Pass} (Я знаю, что писать пароль нельзя, но тип тест же)`  );
+        if (Login == 'Админ' && Pass == "Я главный") alert('Дратути');
+        else if (Login == undefined || Pass == undefined) alert(' Жмакни Отмену еще раз, ну.')
+        else alert('Введен НЕВЕРНЫЙ логин/пароль')
+    </script>
+
+</body>
+</html>
